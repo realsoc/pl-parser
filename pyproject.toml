@@ -10,6 +10,7 @@ dependencies = [
 
 [project.scripts]
 pl-parser = "pl_parser.main:main"
+pdf-analyser = "pl_parser.pdf_analyser:main"
 
 [build-system]
 requires = ["hatchling"]
